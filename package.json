@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Чат(подобие Slack)",
   "proxy": "http://localhost:5001",
-  "main": "frontend/src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "npm run build --prefix frontend",
     "start": "start-server -s ./frontend/build",
