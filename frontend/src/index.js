@@ -9,7 +9,7 @@ import './assets/application.css';
 import './i18next';
 
 const rollbarConfig = {
-  accessToken: 'fffd951913dc488e91be771f5fe1844e',
+  accessToken: process.env.ROLLBAR_TOKEN,
   environment: 'production',
 };
 
