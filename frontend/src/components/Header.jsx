@@ -1,20 +1,15 @@
 import React, { useState } from 'react';
 import { Navbar, Container, Button } from 'react-bootstrap';
-import { useNavigate, useLocation, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const [isLogin, setLoginState] = useState(!!localStorage.getItem('userId'));
-  const location = useLocation();
   const { t } = useTranslation();
-  const navigate = useNavigate();
   const logOut = () => {
     localStorage.removeItem('username');
     localStorage.removeItem('userId');
     setLoginState(false);
-    if (location.pathname === '/') {
-      navigate('login');
-    }
   };
 
   return (
