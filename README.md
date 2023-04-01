@@ -10,7 +10,7 @@ Install dependencies
 Start
 
 
-[Чат](https://frontend-project-12-production-dd1c.up.railway.app)
+[Чат](frontend-project-12-production-c91f.up.railway.app)
 
 
 For avoid registration you can use:
