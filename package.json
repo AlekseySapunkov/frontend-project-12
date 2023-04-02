@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/AlekseySapunkov/frontend-project-12#readme",
   "dependencies": {
-    "@hexlet/chat-server": "^1.1.6",
-    "bootstrap-icons": "^1.10.3",
-    "react-bootstrap-icons": "^1.10.2"
+    "@hexlet/chat-server": "^1.1.6"
   }
 }
